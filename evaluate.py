@@ -11,7 +11,8 @@ with open('questions.txt') as f:
 
 
 def getResponse(ques: str, ans: str, mark: int):
-    prompt = (f'I want you to help me evaluate the answers of my students and provide appropriate marks'
+    prompt = (f'I want you to help me evaluate the answers of my students and provide appropriate marks. Ignore '
+              f'Grammatical Errors'
               f'The Question is'
               f'{ques}'
               f'\n'
