@@ -1,3 +1,0 @@
-Describe the features of OOP[5]
-Explain Inheritance[2]
-Explain difference between abstraction and encapsulation[2]
