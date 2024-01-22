@@ -12,7 +12,7 @@ def getResponse(ques: str, ans: str, mark: int):
               f'\n'
               f'The total marks are {mark}\n'
               f'Be a little liberal with the markings, and also analyze it with respect to organizational behaviour if possible\n'
-              f'How much should he get. Simply Give me a number. No explanations required')
+              f'How much should he get. Simply Give me a number. After that explain the points where he could have improved')
     return getOutput(prompt)
 
 
